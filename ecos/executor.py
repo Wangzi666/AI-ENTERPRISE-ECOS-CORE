@@ -12,3 +12,5 @@ class Executor:
         plan = self.runtime.resolve(entity, target)
         self.builder.generate(plan)
         print("вњ… BUILD COMPLETE")
+
+
